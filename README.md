@@ -1,4 +1,5 @@
 # comp561_project
 
-gene expression model in ipynb notebook /n
-documentation located in report 
+gene expression model in ipynb notebook 
+
+documentation located in report
