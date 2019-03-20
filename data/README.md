@@ -18,6 +18,9 @@ Figure 1: Structure of E-MTAB-3732.sdrf.txt
 
 processedMatrix.Aurora.july2015.txt holds 24 GB of expression values corresponding to these samples. 
 - inputs were extracted from this text file
+First line of the file holds Sample<i> where i represents the Sample number. 
+- following lines hold expression values for the respective samples. 
+- columns represent the expression value vector of samples, where column i is the expression value vector for Sample i.
 
 ## Preprocessing Data
 The preprocessing of this dataset involved extracting the a series of labels. 
@@ -32,7 +35,7 @@ Extracting the expression values for the individual samples was then performed u
 - outputs a txt file for every sample <br>
 
 Transposing and concatenating normal/cancerous samples was then performed using the following script and command:  <br>
-`bash transpose.sh ` <br>
+`bash transpose.sh ` 
 - transpose.sh is dependent on tsk.awk, so ensure that tsk.awk is present in the same directory <br>
 - tsk.awk : works to transpose the individual files <br> 
 
