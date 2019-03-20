@@ -40,6 +40,6 @@ Transposing and concatenating normal/cancerous samples was then performed using 
 - tsk.awk : works to transpose the individual files <br> 
 
 ## Final Dataset 
-output.txt (cancerous), output_normal.txt (normal)
+The datasets uploaded only contain 300 samples each: output.txt (cancerous), output_normal.txt (normal)
 
 
