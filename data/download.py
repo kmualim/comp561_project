@@ -1,6 +1,4 @@
-#class DownloadDataset(GeneDataset): 
-#	def __init__(self):
-#		super(DownloadDataset, self).__init__()
+
 import os
 import urllib.request as urllib
 import glob
