@@ -4,7 +4,7 @@ Here lies the files for the data used for the final classification task - a simp
 The dataset comes from the european bioinformatics database: http://www.ebi.ac.uk 
 and holds a comprehensive human expression map. 
 
-## Requirements 
+Environment: Python3
 
 ## Download dataset 
 This repo contains a script - download.py that can be used to download the data using the following command: 
