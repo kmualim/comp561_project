@@ -13,7 +13,7 @@ This repo contains a script - download.py that can be used to download the data 
 ## Structure of dataset 
 E-MTAB-3732.sdrf.txt holds various characteristics for the derivation of a sample 
 - labels were extracted from this text file
-![](images/structure.png)
+![](../images/structure.png)
 Figure 1: Structure of E-MTAB-3732.sdrf.txt 
 
 processedMatrix.Aurora.july2015.txt holds 24 GB of expression values corresponding to these samples. 
